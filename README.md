@@ -1,4 +1,4 @@
-# cardgame-api
+# card-api-sails
 
 a [Sails v1](https://sailsjs.com) application
 
@@ -14,12 +14,10 @@ a [Sails v1](https://sailsjs.com) application
 
 ### Version info
 
-This app was originally generated on Sun Apr 07 2019 23:42:40 GMT-0400 (Eastern Daylight Time) using Sails v1.1.0.
+This app was originally generated on Mon Apr 08 2019 15:08:22 GMT-0400 (Eastern Daylight Time) using Sails v1.1.0.
 
 <!-- Internally, Sails used [`sails-generate@1.16.4`](https://github.com/balderdashy/sails-generate/tree/v1.16.4/lib/core-generators/new). -->
 
-
-This project's boilerplate is based on an expanded seed app provided by the [Sails core team](https://sailsjs.com/about) to make it easier for you to build on top of ready-made features like authentication, enrollment, email verification, and billing.  For more information, [drop us a line](https://sailsjs.com/support).
 
 
 <!--
