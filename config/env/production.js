@@ -373,9 +373,9 @@ module.exports = {
   * > See config/custom.js for more info on how to configure these options. *
   *                                                                         *
   ***************************************************************************/
-  custom: {
-    baseUrl: 'https://example.com',
-    internalEmailAddress: 'support@example.com',
+  // custom: {
+  //   baseUrl: 'https://example.com',
+  //   internalEmailAddress: 'support@example.com',
 
     // mailgunDomain: 'mg.example.com',
     // mailgunSecret: 'key-prod_fake_bd32301385130a0bafe030c',
@@ -392,7 +392,7 @@ module.exports = {
     // ```
     //--------------------------------------------------------------------------
 
-  },
+  // },
 
 
 
