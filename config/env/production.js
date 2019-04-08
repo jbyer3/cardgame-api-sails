@@ -221,7 +221,7 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     cookie: {
-      secure: true,
+      // secure: true,
       maxAge: 24 * 60 * 60 * 1000,  // 24 hours
     },
 
@@ -253,9 +253,9 @@ module.exports = {
     onlyAllowOrigins: [
       // 'https://example.com',
       // 'https://staging.example.com',
-      'https://protected-woodland-59689.herokuapp.com/',
-      'http://localhost:8081/',
-      'http://localhost:8082/',
+      'https://protected-woodland-59689.herokuapp.com',
+      'http://localhost:8081',
+      'http://localhost:8082',
     ],
 
 
