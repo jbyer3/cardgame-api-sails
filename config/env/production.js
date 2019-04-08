@@ -253,6 +253,7 @@ module.exports = {
     onlyAllowOrigins: [
       // 'https://example.com',
       // 'https://staging.example.com',
+      'https://protected-woodland-59689.herokuapp.com/',
       'http://localhost:8081/',
       'http://localhost:8082/',
     ],
