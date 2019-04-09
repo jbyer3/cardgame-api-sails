@@ -13,7 +13,8 @@ module.exports = {
     name: { type: String, required: true },
     description: {type: String},
     minNumberPlayers: {type: [Number], required: true},
-    maxNumberPlayers: {type: [Number], required: true}
+    maxNumberPlayers: {type: [Number], required: true},
+    rules: {type: String, nullable: true}
 
     //  ╔═╗╔╦╗╔╗ ╔═╗╔╦╗╔═╗
     //  ║╣ ║║║╠╩╗║╣  ║║╚═╗
