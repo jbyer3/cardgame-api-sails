@@ -10,11 +10,11 @@ module.exports = {
     //  ╔═╗╦═╗╦╔╦╗╦╔╦╗╦╦  ╦╔═╗╔═╗
     //  ╠═╝╠╦╝║║║║║ ║ ║╚╗╔╝║╣ ╚═╗
     //  ╩  ╩╚═╩╩ ╩╩ ╩ ╩ ╚╝ ╚═╝╚═╝
-    name: { type: String, required: true },
-    description: {type: String},
-    minNumberPlayers: {type: [Number], required: true},
-    maxNumberPlayers: {type: [Number], required: true},
-    rules: {type: String, nullable: true}
+    name: { type: 'string', required: true },
+    description: {type: 'string'},
+    minNumberPlayers: {type: 'number', required: true},
+    maxNumberPlayers: {type: 'number', required: true},
+    rules: {type: 'string', allowNull: true}
 
     //  ╔═╗╔╦╗╔╗ ╔═╗╔╦╗╔═╗
     //  ║╣ ║║║╠╩╗║╣  ║║╚═╗

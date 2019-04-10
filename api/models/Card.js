@@ -12,9 +12,9 @@ module.exports = {
     //  ╔═╗╦═╗╦╔╦╗╦╔╦╗╦╦  ╦╔═╗╔═╗
     //  ╠═╝╠╦╝║║║║║ ║ ║╚╗╔╝║╣ ╚═╗
     //  ╩  ╩╚═╩╩ ╩╩ ╩ ╩ ╚╝ ╚═╝╚═╝
-    suit: {type: String, required: true},
+    suit: {type: 'string', required: true},
     rank: {
-      type: String,
+      type: 'string',
       isIn: ['Jack', 'Spade', 'Club', 'Heart'],
       required: true
     }
